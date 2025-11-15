@@ -1,0 +1,21 @@
+body {background-color: #EADDCA;}
+h1 {background-color: #C19A6B;
+padding: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 35px;}
+nav { text-decoration: none;
+margin-left: auto;
+}
+nav a{text-decoration: none;
+color: #483C32;
+margin: 60px;
+font-size: 35px;}
+p{font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;}
+a {text-decoration: none; font-size: 25px;}
+div {background-color: #C19A6B;
+margin: 50px;
+width: 35%;}
+div.pp {margin: 50px;
+width: 35%;
+font-size: 30px;}
