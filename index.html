@@ -2,19 +2,82 @@
 <html>
 <head>
 	<title>Webpage-Home</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<center>
-	<h1>Welcome to my Webpage!!</h1><br><br>
-	<nav>
-<a href="index.html" style="text-decoration: none; font-size: 25px;">Home</a></li> &nbsp;&nbsp;&nbsp;
-<a href="about.html" style="text-decoration: none; font-size: 25px;">About</a></li>&nbsp;&nbsp;&nbsp;
-<a href="contact.html" style="text-decoration: none; font-size: 25px;">Contact</a></li>
-   </nav>
-<br><br><br>
-<img src="pickle rick.jpg" alt="PICKLE RICK" style="height: auto; width: 400px;">
-<p style="font-size: 30px;"><b>This is my webpage! I have experience with HTML and CSS. Press 'About' to learn more about me!</b></p>
-</center>
+	<header> <!--NAV BAR-->
+        <nav>
+            <a href="#" class="logo">MY PORTFOLIO</a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header> <!--NAV BAR-->
+
+	<div class="infobox">
+    <div class="info-image">
+        <img src="assets/images/profile.png" alt="Profile Picture">
+    </div>
+    
+    <div class="info-text">
+        <p class="text1">WELCOME</p>
+        <p>Hi! I'm Ading, a beginner at Web Development and Database Management. I am currently exploring WebDev and Design to see where I can apply my skills.</p>
+        <p>I have experience in HTML, CSS, and JavaScript, and I'm always interested to learn new technologies.</p>
+        <p>When I'm not coding, you can find me gaming, playing sports, or listening to music.</p>
+    </div>
+</div>
+
+<div class="cards-container">
+    <div class="card">
+        <div class="first-content">
+            <p>GAMING</p>
+        </div>
+        <div class="second-content">
+            <!-- Card 1 hover content -->
+        </div>
+    </div>
+    
+    <div class="card1">
+        <div class="first-content1">
+            <p>BILLIARDS</p>
+        </div>
+        <div class="second-content1">
+            <!-- Card 2 hover content -->
+        </div>
+    </div>
+    
+    <div class="card2">
+        <div class="first-content2">
+            <p>PLAY BASS</p>
+        </div>
+        <div class="second-content2">
+            <!-- Card 3 hover content -->
+        </div>
+    </div>
+    
+    <div class="card3">
+        <div class="first-content3">
+            <p>COMICS</p>
+        </div>
+        <div class="second-content3">
+            <!-- Card 4 hover content -->
+        </div>
+    </div>
+</div>
+ 
+  
+
+
 </body>
 </html>
 <!-- Updated on (11/15/25) for Git activity -->
